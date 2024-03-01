@@ -1,7 +1,4 @@
-a {
-    text-underline-offset: 4px;
-  }
-  
+ 
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -107,10 +104,12 @@ a {
 .text-right {
     text-align: right;
     line-height: 100%;
-    padding-left: 585px;
 }
-.letter-spacing-extended {
-    letter-spacing: 60px;
+.letter-spacing-0 {
+  letter-spacing: initial;
+}
+.letter-spacing-60 {
+  letter-spacing: 60px;
 }
 .cover__cta {
     font-size: 22px;
